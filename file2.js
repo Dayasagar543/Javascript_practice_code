@@ -1,3 +1,10 @@
+//declaration keywords are :var ,let ,const ; using which we can declare a variable.
+//variable is the reference which is created to refer the memory and also assign the value to it.
+//initialization:assigning the value to the variable initially is called called intialization.
+//reassignment: is nothing but the assignment of a value to the already assigned variable.
+
+
+
 //variables
 
 //variables can store some information

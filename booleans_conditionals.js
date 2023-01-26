@@ -15,9 +15,7 @@ console.log(!true);
 console.log(false);
 console.log(!false);
 
-
-
-//== vs ===
+//==ff vs ===
 //== checks the values not the data type
 console.log("7" == 7);
 //=== checks the data type and also the  values

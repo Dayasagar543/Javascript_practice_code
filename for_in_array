@@ -1,0 +1,52 @@
+let arrays = ["apple", "mango ", "orange", "grapes"];
+
+for (let i = 0; i < arrays.length; i++) {
+    console.log(arrays[i]);
+}
+
+console.log(arrays.length);
+console.log(arrays.length-1);
+console.log(arrays[0]);
+
+let array=arrays.forEach(item => {
+        console.log(item.toLocaleUpperCase());
+  
+})
+
+//use const for creating arrays.
+
+const pie = 3.14;
+console.log(pie);
+
+const arrays1 = ["apple", "mango ", "orange", "grapes"];
+
+arrays1.push("custard")
+console.log(arrays1);
+
+
+//for of loop will directly return the items in the array
+const arrays2 = ["apple", "mango", "grapes"];
+const array3 = [...arrays2];
+for (let fruit of array3) {
+    console.log(fruit);
+}
+
+//for in loop  will return the index of the array when used.
+
+for (fruit in arrays2) {
+    console.log(fruit);
+    console.log(arrays2[fruit]);
+}
+
+//array destructuring.
+const array4 = ["value1", "value2","value3","value4"];
+let val = array4[0];
+console.log(array4[0]);
+let val1= array4[1];
+console.log(array4[1])
+
+let [myval1, myval2, ,myval4] = array4;
+let [vall1, vall2,...rest_Data] = arrays1;
+console.log(myval1, myval2);
+console.log(myval4);
+console.log(rest_Data);

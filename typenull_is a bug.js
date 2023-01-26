@@ -14,8 +14,8 @@ console.log(typeof variable,variable);
 let num = 234;
 console.log(num);
 console.log(Number.MAX_SAFE_INTEGER)//this is the maximum number which you can use safely without any issues.
-let number = BigInt(45678789908766);
-let number3 = 45678789908766n;
+let number = BigInt(45678789908766);//can declare the bigint as this or
+let number3 = 45678789908766n;//can yout this method to declare bigint .
 console.log(`the data type of the number ${number} is ${typeof number},the datatype of ${number3}  is  ${typeof number3}`);
 let result = BigInt(number + number3);
 console.log(`the result of two bigint numbers ${result}`);

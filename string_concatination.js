@@ -1,3 +1,4 @@
+"use strict";
 // string concatenation.
 let string1 = "sahithi";
 let string2 = "chepuri";

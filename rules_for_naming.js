@@ -1,3 +1,4 @@
+"use strict";
 // rules for naming variables
 
 // you cannot start with number but can use in between.
